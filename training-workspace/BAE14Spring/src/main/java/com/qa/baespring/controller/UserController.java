@@ -2,8 +2,7 @@ package com.qa.baespring.controller;
 
 import java.util.List;
 
-import javax.websocket.server.PathParam;
-
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -44,11 +43,14 @@ public class UserController {
 	}
 	
 	// PUT
-	@PutMapping("/update/{id}") // localhost:8080/update/Id
+	@PutMapping("/update/{id}") // localhost:8080/update/id
 	public User update(@PathVariable long id, @RequestBody User user) {
 		return service.update(id, user);
 	}
 	
 	// DELETE
-	//@DeleteMapping
+	@DeleteMapping("/delete/{id}") // localhost:8080/delete/id
+	public boolean delete(@PathVariable long id) {
+		return service.delete(id);
+	}
 }

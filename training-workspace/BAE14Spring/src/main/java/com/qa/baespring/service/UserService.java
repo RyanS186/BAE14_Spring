@@ -30,4 +30,13 @@ public class UserService {
 	public User create(User user) {
 		return repo.saveAndFlush(user);
 	}
+	
+	// Update a user
+	public User update(long id, User user) {
+		User existing = repo.findById(id).get(); // GET the existing user
+		existing.setFirstName(user.getFirstName()); // Change existing user's firstName to new user's firstName
+		existing.setLastName(user.getLastName()); // Change existing user's lastName to new user's lastName
+		existing.setUsername(user.getUsername()); // Change existing user's username to new user's username
+		return repo.saveAndFlush(existing);
+	}
 }

@@ -1,6 +1,6 @@
 package com.qa.baespring.domain;
 
-// Importing necessary packages
+//Importing necessary packages
 import java.util.Objects;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -32,9 +32,18 @@ public class User {
 	@Column(nullable = false)
 	private String lastName;
 	
+	// Creates a column called "age"
+	@Column(nullable = false)
+	private int age;
+	
 	// Creates a column called "username".
 	@Column(unique = true, nullable = false)
 	private String username;
+	
+	// Creates a column called "email_address"
+	@Column(unique = true, nullable = false)
+	private String emailAddress;
+	
 	
 	// Default constructor
 	public User() {}
@@ -42,20 +51,24 @@ public class User {
 	// Source -> Generate Constructor using fields
 	
 	// Used for creating/inserting
-	public User(String firstName, String lastName, String username) {
+	public User(String firstName, String lastName, int age, String username, String emailAddress) {
 		super();
 		this.firstName = firstName;
 		this.lastName = lastName;
+		this.age = age;
 		this.username = username;
+		this.emailAddress = emailAddress;
 	}
 	
 	// Used for reading/selecting (and testing)
-	public User(long id, String firstName, String lastName, String username) {
+	public User(long id, String firstName, String lastName, int age, String username, String emailAddress) {
 		super();
 		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
+		this.age = age;
 		this.username = username;
+		this.emailAddress = emailAddress;
 	}
 
 	// Source -> Generate getters and setters
@@ -79,16 +92,28 @@ public class User {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
 	public String getUsername() {
 		return username;
 	}
 	public void setUsername(String username) {
 		this.username = username;
 	}
+	public String getEmailAddress() {
+		return emailAddress;
+	}
+	public void setEmailAddress(String emailAddress) {
+		this.emailAddress = emailAddress;
+	}
 
 	@Override
 	public String toString() {
-		return "User [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", username=" + username + "]";
+		return "User [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", age=" + age + ", username=" + username + ", emailAddress=" + emailAddress + "]";
 	}
 
 	// Source -> Generate hashCode() and equals()
@@ -96,9 +121,10 @@ public class User {
 	// The equals method allows us to compare objects much more intelligently.
 	// If we were to compare Object1 and Object2 using == notation, it would only return true if they were the same object in memory.
 	// By using equals() we can define the values we want to compare and return true if they match.
+
 	@Override
 	public int hashCode() {
-		return Objects.hash(firstName, id, lastName, username);
+		return Objects.hash(age, emailAddress, firstName, id, lastName, username);
 	}
 
 	@Override
@@ -110,10 +136,8 @@ public class User {
 		if (getClass() != obj.getClass())
 			return false;
 		User other = (User) obj;
-		return Objects.equals(firstName, other.firstName) && id == other.id && Objects.equals(lastName, other.lastName)
-				&& Objects.equals(username, other.username);
+		return age == other.age && Objects.equals(emailAddress, other.emailAddress) && Objects.equals(firstName, other.firstName) && id == other.id && Objects.equals(lastName, other.lastName) && Objects.equals(username, other.username);
 	}
-	
-	
+
 	
 }

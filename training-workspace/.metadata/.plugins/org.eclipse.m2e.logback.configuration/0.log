@@ -1661,3 +1661,14 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:j
 2022-04-20 16:27:17,090 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-04-20 16:27:17,090 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-04-20 16:27:17,091 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-04-20 16:27:17,099 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-20 16:27:17,100 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-20 16:27:17,100 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-20 16:27:17,100 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sharp\Desktop\QA\BAE14\Spring\training-workspace\BAE14Spring\src\test\resources
+2022-04-21 09:05:43,459 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-04-21 10:19:16,758 [Worker-36: Launching BAE14Spring - Bae14SpringApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-21 10:19:16,759 [Worker-36: Launching BAE14Spring - Bae14SpringApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-21 10:19:16,761 [Worker-36: Launching BAE14Spring - Bae14SpringApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-04-21 10:19:16,775 [Worker-36: Launching BAE14Spring - Bae14SpringApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-21 10:19:16,776 [Worker-36: Launching BAE14Spring - Bae14SpringApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-21 10:19:16,776 [Worker-36: Launching BAE14Spring - Bae14SpringApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.

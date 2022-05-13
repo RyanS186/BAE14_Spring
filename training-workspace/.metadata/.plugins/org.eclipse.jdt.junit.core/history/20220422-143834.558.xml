@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="UserControllerIntegrationTest" project="BAE14Spring" tests="4" started="4" failures="0" errors="0" ignored="0">
-  <testsuite name="com.qa.baespring.controller.UserControllerIntegrationTest" time="0.314" displayname="UserControllerIntegrationTest" uniqueid="[engine:junit-jupiter]/[class:com.qa.baespring.controller.UserControllerIntegrationTest]">
-    <testcase name="update" classname="com.qa.baespring.controller.UserControllerIntegrationTest" time="0.226" displayname="update()" uniqueid="[engine:junit-jupiter]/[class:com.qa.baespring.controller.UserControllerIntegrationTest]/[method:update()]"/>
-    <testcase name="getById" classname="com.qa.baespring.controller.UserControllerIntegrationTest" time="0.009" displayname="getById()" uniqueid="[engine:junit-jupiter]/[class:com.qa.baespring.controller.UserControllerIntegrationTest]/[method:getById()]"/>
-    <testcase name="getAllTest" classname="com.qa.baespring.controller.UserControllerIntegrationTest" time="0.064" displayname="getAllTest()" uniqueid="[engine:junit-jupiter]/[class:com.qa.baespring.controller.UserControllerIntegrationTest]/[method:getAllTest()]"/>
-    <testcase name="createTest" classname="com.qa.baespring.controller.UserControllerIntegrationTest" time="0.012" displayname="createTest()" uniqueid="[engine:junit-jupiter]/[class:com.qa.baespring.controller.UserControllerIntegrationTest]/[method:createTest()]"/>
-  </testsuite>
-</testrun>

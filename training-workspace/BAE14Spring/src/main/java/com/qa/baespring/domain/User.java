@@ -127,6 +127,7 @@ public class User {
 		return Objects.hash(age, emailAddress, firstName, id, lastName, username);
 	}
 
+	
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)

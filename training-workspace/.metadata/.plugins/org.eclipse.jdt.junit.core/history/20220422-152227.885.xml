@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="UserControllerIntegrationTest" project="BAE14Spring" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="com.qa.baespring.controller.UserControllerIntegrationTest" time="0.292" displayname="UserControllerIntegrationTest" uniqueid="[engine:junit-jupiter]/[class:com.qa.baespring.controller.UserControllerIntegrationTest]">
-    <testcase name="createTest" classname="com.qa.baespring.controller.UserControllerIntegrationTest" time="0.292" displayname="createTest()" uniqueid="[engine:junit-jupiter]/[class:com.qa.baespring.controller.UserControllerIntegrationTest]/[method:createTest()]"/>
-  </testsuite>
-</testrun>

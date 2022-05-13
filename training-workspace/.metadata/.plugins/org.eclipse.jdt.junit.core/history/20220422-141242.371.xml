@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="Bae14SpringApplicationTests" project="BAE14Spring" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="com.qa.baespring.Bae14SpringApplicationTests" time="0.108" displayname="Bae14SpringApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.qa.baespring.Bae14SpringApplicationTests]">
-    <testcase name="contextLoads" classname="com.qa.baespring.Bae14SpringApplicationTests" time="0.108" displayname="contextLoads()" uniqueid="[engine:junit-jupiter]/[class:com.qa.baespring.Bae14SpringApplicationTests]/[method:contextLoads()]"/>
-  </testsuite>
-</testrun>
